@@ -1,0 +1,60 @@
+/*!
+Theme Name: AdrianBosacki
+Theme URI: http://underscores.me/
+Author: AdrianBosacki
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: adrianbosacki
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+AdrianBosacki is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+@import "Header/header";
+@import "Blog/blog";
+@import "Single_post/Single_post";
+@import "footer/footer";
+
+body{
+	margin:0px;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Playfair Display', serif;
+}
+p{
+	color: #626262;
+	line-height: 1.6;
+	font-size: 15px;
+	font-family: 'Playfair Display', serif;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	&:hover{
+		color: #232323;
+	}
+}
+
+.small_text1{
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+.large_text1{
+	color: #626262;
+	font-weight: 100;
+	font-size: 27px;
+}
+
+
+
+
+
+

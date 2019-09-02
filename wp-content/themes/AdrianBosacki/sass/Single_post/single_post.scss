@@ -1,0 +1,134 @@
+$breakpoint-mobile: 720px;
+
+.article-top__share{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 141px;
+    margin-left: auto;
+    margin-top: 50px;
+    
+    img{
+        width: 15px;
+        margin-right: 0px;
+        opacity: 0.6;
+        &:last-of-type {
+            margin: 0px;
+        }
+    }
+}
+.article-top__share-text{
+    margin-right: 10px;
+}
+
+
+
+.section-see-also{
+	width:100%;background-color: #f0f0f0;padding: 75px 0px;margin-top: 80px;
+}
+.section-see-also__wrapper{
+	max-width: 944px;
+	margin: auto;
+	padding: 0px 25px;
+}
+.section-see-also__list{
+	display: flex;
+	justify-content: space-between;
+    margin-top: 33px;
+    flex-wrap: wrap;
+}
+.section-see-also__item{
+	width: 30%;
+}
+@media screen and (max-width: $breakpoint-mobile) and (min-width: 0px){
+    .section-see-also__item{
+        width: 48%;
+        margin-bottom: 15px;
+    }
+}
+
+
+.section-see-also__image-wrapper{
+	width: 100%;
+	height: 174px;
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		opacity: 0.85;
+		&:hover{
+			opacity: 0.5;
+		}
+	}
+}
+.section-see-also__title{
+	margin-top: 12px;
+	font-size: 20px;
+	color: #626262;
+	font-weight: 100;
+}
+
+.section-comments{
+    max-width: 944px;margin: 80px auto 0px auto;padding: 0px 25px;
+}
+
+.section-comments__counter{
+    margin-bottom: 35px
+}
+
+.section-comments__comment{
+    margin-top: 21px;
+    display: flex;
+    margin-bottom: 35px;
+}
+.section-comments__img-wrap{
+    margin-right: 35px;
+    img{
+        width: 62px;
+        border-radius: 100%;
+    }
+}
+.section-comments__name{
+    color: #626262;
+    font-weight: 600;
+}
+.section-comments__text{
+    margin-top: 7px;
+    color: #626262;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.section-comments__reply{
+    margin-top: 16px;
+}
+.section-comments__textarea{
+    width: 100%;
+    height: 6rem;
+    border-radius: 7px;
+    border: solid 1px #c8c8c8;
+    padding: 25px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.section-comments__connect-with{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+    margin-left: auto;
+
+    img{
+        width: 15px;
+        margin-right: 0px;
+    }
+}
+.section-comments__connect-text{
+    margin-right: 10px;
+}
+.section-comments__connect-img--opacity{
+    opacity: 0.5;
+}
