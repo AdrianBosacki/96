@@ -163,4 +163,25 @@ add_action( 'wp_enqueue_scripts', 'remove_block_css', 100 );
  <img   
  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjCBwXOyEfCSr5AAABF0lEQVQoz3XRIWtbcRQF8N/9k5lXWrERt+dKzfTE5CC2TE/UtB+g3yAhBOYqagejImLfIQQmJitH3FxLKtoOlvAiMsideKRQSM8xF87hcC4nzkZ5bt9uLOMyTv862CX5o9K1LDtlvvjgs3v7nZ3yxm93WPHc8M8t3nrlGIdeE6f5JN/EwBS9HKqloE1o/PDemxhsrgo2V0V+9ejaR3sFD9E3NzctWpqam0ffAwW5jXuGkLI1RC7M1HobLfXUZrkQbYewjnF+ylFhSunlSBPjXG8NlGqyGuYgv7lBrYlhNWnq7Rcpm9y7WP3KE+/wM8bVpMm2QweVI5ow048DcpHrppaOVHQsdX23EshMRHu3Y3XiMs91X577P03KbNTvBS1jAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTA4LTI4VDIzOjU5OjMzKzAwOjAwFB09lwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0wOC0yOFQyMzo1OTozMyswMDowMGVAhSsAAAAASUVORK5CYII="
  />
+ ``` 
+ ## Uruchamianie strony
+ Aby uruchomić stronę na serwerze należy wykonać następujące czynności:
+ 
+ ### 1 Zmiana adresu strony w pliku wp-config
  ```
+define('WP_SITEURL', 'http://048659e3b7b8e73bcc6244c1f2962555.ipsumstudio.site');
+define('WP_HOME', 'http://048659e3b7b8e73bcc6244c1f2962555.ipsumstudio.site');
+define('RELOCATE',true);
+ ```
+ ### 2 Zmiana adresu strony w bazie danych.
+ Należy podmienić wszystkie odnośniki do starej domeny na nową.
+ Można użyć do tego celu edytora tekstowego lub skryptu SQL.
+ 
+  ### 3 Zmiana danych dostępu do bazy danych w pliku wp-config
+  
+  
+  
+ 
+ 
+ 
+ 
