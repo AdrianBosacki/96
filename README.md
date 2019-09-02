@@ -1,4 +1,4 @@
-# Zadanie rekrutacujne - Wersja EXTRA
+# Zadanie rekrutacyjne - Wersja EXTRA
 
 Podgląd strony uruchomionej na serwerze: [Zobacz Podgląd](http://048659e3b7b8e73bcc6244c1f2962555.ipsumstudio.site/)
 
