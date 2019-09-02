@@ -8,9 +8,11 @@
  */
 
 ?>
+<?php if(has_post_thumbnail()) : ?>
 <div class="header__image-wrap">
-            <img class="header__image" src="<?php the_post_thumbnail_url('header_top'); ?>">
+    <img class="header__image" src="<?php the_post_thumbnail_url('header_top'); ?>" alt="Header image">
 </div>
+<?php endif; ?>
 		
 
 <article class="article-top">

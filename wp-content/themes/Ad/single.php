@@ -24,22 +24,6 @@ get_header();
 
         endwhile; // End of the loop.
 		?>
-		
-
-
-        
-    
-
-   
-
-
-
-
-
-
-
-          
-
 
 
 <section class="section-see-also" >
@@ -61,7 +45,7 @@ get_header();
          <div class="section-see-also__item" >
                 <?php if(has_post_thumbnail()) : ?>
                     <div class="section-see-also__image-wrapper">
-                    <a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url('see_also'); ?>" ></a>
+                    <a href="<?php the_permalink(); ?>"><img src="<?php the_post_thumbnail_url('see_also'); ?>" alt="<?php the_title(); ?> image" ></a>
                     </div>
                 <?php endif; ?>
 				<div class="section-see-also__title" >
@@ -96,7 +80,7 @@ get_header();
 <div  class="small_text1 section-comments__counter">2 COMMENTS</div>
 
 <div class="section-comments__comment">
-    <div class="section-comments__img-wrap"><img src="/images/resources/profile1.jpg" ></div> 
+    <div class="section-comments__img-wrap"><img src="/images/resources/profile1.jpg" alt="profile picture" ></div> 
     <div>
         <div class="section-comments__name">John Doe</div>
         <div class="section-comments__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo!
@@ -106,7 +90,7 @@ get_header();
 </div>
 
 <div class="section-comments__comment">
-    <div class="section-comments__img-wrap"><img src="/images/resources/profile2.jpg" ></div> 
+    <div class="section-comments__img-wrap"><img src="/images/resources/profile2.jpg" alt="profile picture"></div> 
     <div>
         <div class="section-comments__name">Jane Doe</div>
         <div class="section-comments__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo!
@@ -117,7 +101,7 @@ get_header();
 
 
 <div class="section-comments__comment">
-    <div class="section-comments__img-wrap"><img src="/images/resources/profile3.jpg" ></div> 
+    <div class="section-comments__img-wrap"><img src="/images/resources/profile3.jpg" alt="profile picture" ></div> 
     <textarea class="section-comments__textarea" placeholder="JOIN THE DISCUSSION"></textarea>
 </div>
 

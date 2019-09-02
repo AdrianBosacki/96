@@ -8,7 +8,9 @@
  */
 
 
-
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
 	   
 
 
@@ -46,9 +48,9 @@ if ( ! function_exists( 'adrianbosacki_setup' ) ) :
 		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 		 */
 		add_theme_support( 'post-thumbnails' );
-		add_image_size( 'header_top', 1040 ); 
-		add_image_size( 'main_list', 434 ); 		
-		add_image_size( 'see_also', 284 ); 
+		add_image_size( 'header_top', 1040, 546, true ); 
+		add_image_size( 'main_list', 434, 297, true ); 		
+		add_image_size( 'see_also', 284, 174, true ); 
 		
 		
 

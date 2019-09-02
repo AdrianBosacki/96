@@ -95,7 +95,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 .article-top img {
   height: auto;
   max-width: 100%;
-  vertical-align: middle;
+  margin: 22px auto 22px auto;
+}
+
+.article-top blockquote {
+  margin-top: 25px;
+  margin-bottom: 28px;
 }
 
 .article-top__content {

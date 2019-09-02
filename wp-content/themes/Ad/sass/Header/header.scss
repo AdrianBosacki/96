@@ -37,10 +37,14 @@
 	padding: 0px 25px;
 
 	img{
-		height: auto;
-		max-width: 100%;
-		vertical-align: middle;
-	}
+        height: auto;
+        max-width: 100%;        
+        margin: 22px auto 22px auto;
+    }
+    blockquote{
+        margin-top: 25px;
+        margin-bottom: 28px;
+    }
 }
 .article-top__content{
 	margin-bottom: 30px;

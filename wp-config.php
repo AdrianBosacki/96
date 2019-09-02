@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'xone' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'adrian_bosacki' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'vbTDNHZxRVBYZkBvY36L' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -36,6 +36,11 @@ define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
+
+define('WP_SITEURL', 'http://048659e3b7b8e73bcc6244c1f2962555.ipsumstudio.site');
+define('WP_HOME', 'http://048659e3b7b8e73bcc6244c1f2962555.ipsumstudio.site');
+define('RELOCATE',true);
+
 
 /**#@+
  * Authentication Unique Keys and Salts.
@@ -83,7 +88,7 @@ define( 'WP_DEBUG', false );
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+    define( 'ABSPATH', dirname( __FILE__ ) . '/' );
 }
 
 /** Sets up WordPress vars and included files. */
