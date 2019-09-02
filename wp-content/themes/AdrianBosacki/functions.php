@@ -138,7 +138,7 @@ add_action( 'widgets_init', 'adrianbosacki_widgets_init' );
 function criticalCSS_wp_head() {
 	
 	echo '<style>';
-	echo file_get_contents( get_template_directory_uri() . '/sass/style.css' );
+	echo file_get_contents( get_template_directory_uri() . '/sass/style.min.css' );
 	//include get_template_directory_uri() . '/sass/style.css';
 	echo '</style>';    
   
